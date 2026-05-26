@@ -10,6 +10,9 @@ Cursor has it. Now Claude Code has it too.
 [![License](https://shieldcn.dev/github/license/amajorai/replay.md.svg)](https://github.com/amajorai/replay.md)
 [![Issues](https://shieldcn.dev/github/issues/amajorai/replay.md.svg)](https://github.com/amajorai/replay.md/issues)
 
+> [!NOTE]
+> These skills have been built and tested with **Claude Code**. Codex support is untested. If you try them on Codex, we'd love your help. [Open an issue](https://github.com/amajorai/replay.md/issues) to share what works and what doesn't.
+
 ## Works great with
 
 - 🪅 **[vibe.md](https://github.com/amajorai/vibe.md)** to provision a 24/7 cloud server — replay auto-detects it and records there without any local setup.
