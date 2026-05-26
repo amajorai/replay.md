@@ -13,6 +13,39 @@ Cursor has it. Now Claude Code has it too.
 > [!NOTE]
 > These skills have been built and tested with **Claude Code**. Codex support is untested. If you try them on Codex, we'd love your help. [Open an issue](https://github.com/amajorai/replay.md/issues) to share what works and what doesn't.
 
+## Quickstart
+
+```bash
+npx skills add amajorai/replay.md
+```
+
+Then in Claude Code:
+
+```
+/replay
+```
+
+or point it at something specific:
+
+```
+/replay record the checkout flow on https://myapp.com
+```
+
+### Update
+
+```bash
+npx skills update replay -y
+```
+
+### Claude Code plugin
+
+```
+/plugin marketplace add amajorai/replay.md
+/plugin install replaymd@amajorai
+```
+
+Invoke as `/replaymd:replay`.
+
 ## Works great with
 
 - 🪅 **[vibe.md](https://github.com/amajorai/vibe.md)** to provision a 24/7 cloud server — replay auto-detects it and records there without any local setup.
@@ -77,39 +110,6 @@ echo $VIBE_SERVER                 # or set this env var manually
 ```
 
 When found, replay uses the vibe server for recording — no local Docker needed, no ephemeral VPS costs, full 24/7 availability.
-
-## Quickstart
-
-```bash
-npx skills add amajorai/replay.md
-```
-
-Then in Claude Code:
-
-```
-/replay
-```
-
-or point it at something specific:
-
-```
-/replay record the checkout flow on https://myapp.com
-```
-
-### Update
-
-```bash
-npx skills update replay -y
-```
-
-### Claude Code plugin
-
-```
-/plugin marketplace add amajorai/replay.md
-/plugin install replaymd@amajorai
-```
-
-Invoke as `/replaymd:replay`.
 
 ## Star History
 
