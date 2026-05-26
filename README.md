@@ -96,9 +96,11 @@ or point it at something specific:
 /replay record the checkout flow on https://myapp.com
 ```
 
-### Auto-Update
+### Update
 
-Auto-update is opt-in. Pass `--update` or set `SKILLS_AUTO_UPDATE: true` in your project CLAUDE.md.
+```bash
+npx skills update replay -y
+```
 
 ### Claude Code plugin
 

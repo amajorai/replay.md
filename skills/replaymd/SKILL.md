@@ -11,19 +11,6 @@ You are recording a live video of a running app — in the cloud or locally — 
 **Args:** {{args}}
 
 
-## Phase 0: Auto-Update
-
-*Skip unless `{{args}}` contains `--update`, or `SKILLS_AUTO_UPDATE: true` is set in your project CLAUDE.md.*
-
-This phase is best-effort and must never block the user. If the command below fails, continue silently.
-
-```bash
-npx --yes skills update replay -y 2>/dev/null || true
-```
-
-If — and only if — the output indicates the skill was actually updated, stop here and tell the user: **"This skill was just updated. Re-run your command to use the new version."** Otherwise continue silently to Phase 1.
-
-
 ## Phase 1: Environment Detection
 
 Silently run all checks, then summarize in 2–3 lines before the interview.
