@@ -16,7 +16,7 @@ Cursor has it. Now Claude Code has it too.
 ## Works great with
 
 - 🪅 **[vibe.md](https://github.com/amajorai/vibe.md)** to provision a 24/7 cloud server — replay auto-detects it and records there without any local setup.
-- 📦 **[ship.md](https://github.com/amajorai/ship.md)** to fix issues found during recording. Ship surfaces a `/replay` upsell at the end of every pipeline run.
+- 📦 **[ship.md](https://github.com/amajorai/ship.md)** to fix issues found during recording. Ship recommends `/replay` at the end of every pipeline run so you can record proof of what shipped.
 - 🎉 **[party.md](https://github.com/amajorai/party.md)** to run replay autonomously on every deploy — drop a record issue into your board and party.md handles the rest.
 
 ## Skills
@@ -44,7 +44,7 @@ flowchart TD
     J -->|Local| N["💾 ./replay-recordings/"]
     K & L & M & N --> O["🔗 Video URL in chat"]
     O --> P{Issues found?}
-    P -->|Yes| Q["Upsell /ship"]
+    P -->|Yes| Q["Recommend /ship to fix issues"]
     P -->|No| R([Done])
 ```
 
