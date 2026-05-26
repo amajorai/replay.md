@@ -4,7 +4,7 @@ Record a live video of your running app — in the cloud or locally — and shar
 
 Cursor has it. Now Claude Code has it too.
 
-[![Status](https://shieldcn.dev/badge/status-beta-blue.svg)](https://github.com/amajorai/replay.md)
+[![Status](https://shieldcn.dev/badge/status-experimental-orange.svg)](https://github.com/amajorai/replay.md)
 [![Stars](https://shieldcn.dev/github/stars/amajorai/replay.md.svg)](https://github.com/amajorai/replay.md)
 [![Forks](https://shieldcn.dev/github/forks/amajorai/replay.md.svg)](https://github.com/amajorai/replay.md)
 [![License](https://shieldcn.dev/github/license/amajorai/replay.md.svg)](https://github.com/amajorai/replay.md)
