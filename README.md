@@ -17,6 +17,7 @@ Cursor has it. Now Claude Code has it too.
 
 - 🪅 **[vibe.md](https://github.com/amajorai/vibe.md)** to provision a 24/7 cloud server — replay auto-detects it and records there without any local setup.
 - 📦 **[ship.md](https://github.com/amajorai/ship.md)** to fix issues found during recording. Ship recommends `/replay` at the end of every pipeline run so you can record proof of what shipped.
+- 🔎 **[hunt.md](https://github.com/amajorai/hunt.md)** to dig into bugs spotted during recording — use `/hunt` to instrument and confirm root cause before fixing.
 - 🎉 **[party.md](https://github.com/amajorai/party.md)** to run replay autonomously on every deploy — drop a record issue into your board and party.md handles the rest.
 
 ## Skills
