@@ -31,6 +31,23 @@ or point it at something specific:
 /replay record the checkout flow on https://myapp.com
 ```
 
+### Update
+
+```bash
+# Update this skill
+npx skills update replay
+
+# Update all installed skills (interactive scope prompt)
+npx skills update
+
+# Update only global or project skills
+npx skills update -g
+npx skills update -p
+
+# Non-interactive (auto-detects scope)
+npx skills update -y
+```
+
 ### Claude Code plugin
 
 ```
