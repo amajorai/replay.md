@@ -16,7 +16,7 @@ Cursor has it. Now Claude Code has it too.
 ## Quickstart
 
 ```bash
-npx skills add amajorai/replay.md
+npx skills add -g amajorai/replay.md
 ```
 
 Then in Claude Code:
@@ -29,12 +29,6 @@ or point it at something specific:
 
 ```
 /replay record the checkout flow on https://myapp.com
-```
-
-### Update
-
-```bash
-npx skills update replay -y
 ```
 
 ### Claude Code plugin
