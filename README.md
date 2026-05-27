@@ -48,6 +48,7 @@ Invoke as `/replaymd:replay`.
 
 ## Works great with
 
+- 👻 **[spec.md](https://github.com/amajorai/spec.md)** to spec out the feature before building it — then use replay to record video proof once each atomic unit is shipped.
 - 🪅 **[vibe.md](https://github.com/amajorai/vibe.md)** to provision a 24/7 cloud server — replay auto-detects it and records there without any local setup.
 - 📦 **[ship.md](https://github.com/amajorai/ship.md)** to fix issues found during recording. Ship recommends `/replay` at the end of every pipeline run so you can record proof of what shipped.
 - 🔎 **[fix.md](https://github.com/amajorai/fix.md)** to dig into bugs spotted during recording — use `/fix` to instrument and confirm root cause before fixing.
