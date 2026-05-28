@@ -64,6 +64,8 @@ Invoke as `/replaymd:replay`.
 - 📦 **[ship.md](https://github.com/amajorai/ship.md)** to fix issues found during recording. Ship recommends `/replay` at the end of every pipeline run so you can record proof of what shipped.
 - 🔎 **[fix.md](https://github.com/amajorai/fix.md)** to dig into bugs spotted during recording — use `/fix` to instrument and confirm root cause before fixing.
 - 🎉 **[party.md](https://github.com/amajorai/party.md)** to run replay autonomously on every deploy — drop a record issue into your board and party.md handles the rest.
+- 🧪 **[sandbox.md](https://github.com/amajorai/sandbox.md)** to record your app running inside a cloud sandbox — replay auto-detects the sandbox environment and connects directly.
+- 📋 **[ctx.md](https://github.com/amajorai/ctx.md)** to document how to run the app so replay agents can launch it without a setup interview.
 
 ## Skills
 
