@@ -10,6 +10,8 @@ You are recording a live video of a running app — in the cloud or locally — 
 
 **Args:** {{args}}
 
+> **Note:** The bash blocks below assume a POSIX shell. On Windows, run them via the Bash tool / Git Bash.
+
 
 ## Phase 1: Environment Detection
 
@@ -110,7 +112,7 @@ See [references/recording-approaches.md](references/recording-approaches.md) for
 
 **If using vibe server (SSH):**
 ```bash
-ssh "$VIBE_HOST" "which bunx || npm i -g bun; bunx playwright --version 2>/dev/null || (bun add -g playwright && bunx playwright install --with-deps chromium); which ffmpeg || apt-get install -y ffmpeg xvfb"
+ssh "$VIBE_SERVER" "which bunx || npm i -g bun; bunx playwright --version 2>/dev/null || (bun add -g playwright && bunx playwright install --with-deps chromium); which ffmpeg || apt-get install -y ffmpeg xvfb"
 ```
 
 **If using local Docker (Playwright approach):**
