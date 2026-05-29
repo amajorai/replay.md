@@ -1,0 +1,11 @@
+{
+  "name": "replaymd",
+  "description": "Record a live video of your running app and share the link, straight from chat. Detects the environment, drives the app, records the session, and uploads the result.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jia Wei Ng"
+  },
+  "repository": "https://github.com/amajorai/replay.md",
+  "license": "MIT",
+  "keywords": ["replay", "recording", "video", "demo", "screencast", "upload"]
+}

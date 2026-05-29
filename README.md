@@ -71,7 +71,7 @@ Invoke as `/replaymd:replay`.
 
 | Skill | What it does |
 |-------|-------------|
-| [`/replay`](skills/replaymd/SKILL.md) | Detect environment, interview for recording approach + storage provider, launch app, record session, upload video, return URL to chat |
+| [`/replay`](skills/replay/SKILL.md) | Detect environment, interview for recording approach + storage provider, launch app, record session, upload video, return URL to chat |
 
 ## How it works
 

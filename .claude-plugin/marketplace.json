@@ -1,0 +1,13 @@
+{
+  "name": "replaymd",
+  "owner": {
+    "name": "Jia Wei Ng"
+  },
+  "plugins": [
+    {
+      "name": "replaymd",
+      "description": "Record a live video of your running app and share the link, straight from chat. Detects the environment, drives the app, records the session, and uploads the result.",
+      "source": "."
+    }
+  ]
+}
